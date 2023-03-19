@@ -1,12 +1,14 @@
 import { Container, Heading, SimpleGrid, } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
+import Layout from "../components/layouts/article"
 
 import thumbMEnU from "../public/images/contents/MEnU/thumbMEnU.png"
 import thumbVanMarket from "../public/images/contents/VanMarket/thumbVanMarket.png"
 
 const Works = () => {
     return (
+        <Layout>
         <Container>
 
             {/* //UX UI// */}
@@ -67,6 +69,7 @@ const Works = () => {
 
 
         </Container>
+        </Layout>
     )
 }
 

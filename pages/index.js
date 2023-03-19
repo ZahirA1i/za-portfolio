@@ -4,9 +4,12 @@ import Paragraph from "../components/paragraph"
 import { ChevronRightIcon } from "@chakra-ui/icons"
 import NextLink from 'next/link'
 import { BioSection , BioBold } from "../components/bio"
+import Layout from "../components/layouts/article"
+
   
 const Page = () => {
     return (
+        <Layout>
         <Container>
             <Box borderRadius="lg" bg="#B68BE8" p={3} mb={6} align="center">
                 Hello, I'm a Designer/Developer based in Vancouver, BC
@@ -102,6 +105,7 @@ const Page = () => {
         </Section>
 
         </Container>
+        </Layout>
         
     )
 }
