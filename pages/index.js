@@ -3,7 +3,7 @@ import Section from "../components/section"
 import Paragraph from "../components/paragraph"
 import { ChevronRightIcon } from "@chakra-ui/icons"
 import NextLink from 'next/link'
-import { BioSection , BioYear } from "../components/bio"
+import { BioSection , BioBold } from "../components/bio"
   
 const Page = () => {
     return (
@@ -58,22 +58,22 @@ const Page = () => {
             </Heading>
 
             <BioSection>
-                <BioYear>2002</BioYear>
+                <BioBold>2002</BioBold>
                 Born in Vancouver, Canada.
             </BioSection>
 
             <BioSection>
-                <BioYear>2020</BioYear>
+                <BioBold>2020</BioBold>
                 Graduated from New Westminster Secondary School
             </BioSection>
 
             <BioSection>
-                <BioYear>2023</BioYear>
+                <BioBold>2023</BioBold>
                 Digital Design and Development program at BCIT
             </BioSection>
 
             <BioSection>
-                <BioYear>2023</BioYear>
+                <BioBold>2023</BioBold>
                 Practicum/Freelance work
             </BioSection>
 
@@ -84,9 +84,9 @@ const Page = () => {
                 Tech Stack
             </Heading>
 
-            <BioYear>
+            <BioBold>
                 Adobe Creative Suite,  Figma,  HTML5,  CSS3,  Next JS,  React Native,  Git,  Firebase,  Wordpress
-            </BioYear>
+            </BioBold>
 
         </Section>
 
@@ -95,9 +95,9 @@ const Page = () => {
                 I ♥
             </Heading>
 
-            <BioYear>
+            <BioBold>
                 Creating & Designing, Music, Video Games, Anime & Manga, Movies, Basketball, Soccer, Golf, and of course sleeping and eating food lol
-            </BioYear>
+            </BioBold>
 
         </Section>
 

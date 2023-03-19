@@ -28,7 +28,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
         href={href}
         scroll={false}
         p={2}
-        bg={active ? 'grassTeal' : undefined}
+        bg={active ? '#B68BE8' : undefined}
         color={active ? '#202023' : inactiveColor}
         target={target}
         {...props}
@@ -80,11 +80,11 @@ const Navbar = props => {
         >
             
           <LinkItem href="/works" path={path}>
-            Works
+            My Work
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
+          {/* <LinkItem href="/posts" path={path}>
             Posts
-          </LinkItem>
+          </LinkItem> */}
         </Stack>
 
         <Box flex={1} align="right">
