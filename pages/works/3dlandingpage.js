@@ -1,12 +1,10 @@
 import {
     Container,
     Badge,
-    Link,
     List,
     ListItem,
-    AspectRatio
+    
   } from '@chakra-ui/react'
-  import { ExternalLinkIcon } from '@chakra-ui/icons'
   import { Title, WorkImage, Meta } from '../../components/work'
   import P from '../../components/paragraph'
   import Layout from "../../components/layouts/article"
@@ -44,12 +42,7 @@ const Work = () => {
 
                 </List>
 
-                <span>Screenshots</span>
-
-                <WorkImage src="/images/contents/VanMarket/VanMSS.png" alt="VanMarket"/>
-
-
-                <WorkImage src="/images/contents/VanMarket/VanMSG.png" alt="VanMarket"/>
+                <WorkImage src="" alt=""/>
 
             </Container>
         </Layout>
