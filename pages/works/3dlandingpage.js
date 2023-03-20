@@ -16,25 +16,25 @@ import {
   
 const Work = () => {
     return (
-        <Layout title="MEnU">
+        <Layout title="3D Landingpage">
             <Container>
                 <Title>
-                    MEnU <Badge>2022</Badge>
+                    3D Landing Page <Badge>2023</Badge>
                 </Title>
                 <P>
-                    MEnU description here
+                    description here
                 </P>
                 <List ml={4} my={4}>
 
                     <ListItem>
                     <Meta>Platform</Meta>
-                    <span>Mobile</span>
+                    <span>Web</span>
                     </ListItem>
                     <Meta>Stack</Meta>
-                    <span>Figma</span>
+                    <span>React, threeJS</span>
                     <ListItem>
                     <Meta>Role</Meta>
-                    <span>UX/UI Designer</span>
+                    <span>Developer + Designer</span>
                     </ListItem>
 
                     <ListItem>
@@ -46,15 +46,11 @@ const Work = () => {
 
                 <span>Screenshots</span>
 
-                <WorkImage src="/images/contents/MEnU/MEnUSS.png" alt="MEnU"/>
+                <WorkImage src="/images/contents/VanMarket/VanMSS.png" alt="VanMarket"/>
 
-                <span>Style Guide</span>
 
-                <WorkImage src="/images/contents/MEnU/MEnUSG.png" alt="MEnU"/>
-                {/* <WorkImage src="" alt="MEnU"/>
-                <WorkImage src="" alt="MEnU"/>
-                <WorkImage src="" alt="MEnU"/>
-                <WorkImage src="" alt="MEnU"/> */}
+                <WorkImage src="/images/contents/VanMarket/VanMSG.png" alt="VanMarket"/>
+
             </Container>
         </Layout>
     )
