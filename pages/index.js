@@ -5,8 +5,7 @@ import { ChevronRightIcon } from "@chakra-ui/icons"
 import NextLink from 'next/link'
 import { BioSection , BioBold } from "../components/bio"
 import Layout from "../components/layouts/article"
-import { IoLogoGithub, IoMail, IoCall , IoLogoDiscord} from 'react-icons/io5'
-import { GridItem } from '../components/grid-item'
+import { IoLogoGithub, IoMail, IoCall } from 'react-icons/io5'
 
   
 const Page = () => {
@@ -132,11 +131,7 @@ const Page = () => {
             </Link>
             </ListItem>
 
-            <ListItem>
-                <Button variant="ghost" colorScheme="purple" leftIcon={<Icon as={IoLogoDiscord}/>}>
-                        za#5971
-                </Button>
-            </ListItem>
+           
 
 
 
