@@ -1,10 +1,12 @@
-import {  Box, Button, Container, Heading, Image } from "@chakra-ui/react"
+import {  Box, Button, Container, Heading, Icon, Image, Link, List, ListItem } from "@chakra-ui/react"
 import Section from "../components/section"
 import Paragraph from "../components/paragraph"
 import { ChevronRightIcon } from "@chakra-ui/icons"
 import NextLink from 'next/link'
 import { BioSection , BioBold } from "../components/bio"
 import Layout from "../components/layouts/article"
+import { IoLogoGithub, IoMail, IoCall , IoLogoDiscord} from 'react-icons/io5'
+import { GridItem } from '../components/grid-item'
 
   
 const Page = () => {
@@ -102,6 +104,43 @@ const Page = () => {
                 Creating & Designing, Music, Video Games, Anime & Manga, Movies, Basketball, Soccer, Golf, and of course sleeping and eating food lol
             </BioBold>
 
+        </Section>
+
+        <Section delay={0.3}>
+            <Heading as="h3" variant="section-title">
+                Connect with me
+            </Heading>
+            <List>
+
+            <ListItem>
+            <Button variant="ghost" colorScheme="purple" leftIcon={<Icon as={IoCall}/>}>
+                    778-858-6904
+            </Button>
+            </ListItem>
+
+            <ListItem>
+                <Button variant="ghost" colorScheme="purple" leftIcon={<Icon as={IoMail}/>}>
+                        zahirali1800@gmail.com
+                </Button>
+            </ListItem>
+
+            <ListItem>
+            <Link href="https://github.com/ZahirA1i" target="_blank">
+                <Button variant="ghost" colorScheme="purple" leftIcon={<Icon as={IoLogoGithub}/>}>
+                        @ZahirA1i
+                </Button>
+            </Link>
+            </ListItem>
+
+            <ListItem>
+                <Button variant="ghost" colorScheme="purple" leftIcon={<Icon as={IoLogoDiscord}/>}>
+                        za#5971
+                </Button>
+            </ListItem>
+
+
+
+            </List>
         </Section>
 
         </Container>
