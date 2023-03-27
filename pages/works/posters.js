@@ -20,7 +20,9 @@ const Work = () => {
                     Poster Graphics <Badge>2021-2023</Badge>
                 </Title>
                 <P>
-                    description here
+                I use my skills in Photoshop to create stunning posters that grab attention and communicate messages effectively. I use a variety of tools to manipulate images and graphics, create custom shapes and patterns, add textures and gradients, and use filters to enhance the visual impact. I also use my knowledge of composition to arrange elements in a way that draws the viewer's eye to the most important parts
+
+
                 </P>
                 <List ml={4} my={4}>
 
@@ -41,7 +43,11 @@ const Work = () => {
 
                 
 
-                <WorkImage src="" alt=""/>
+                <WorkImage src="/images/contents/Posters/rx7.png" alt="Rx7"/>
+                <WorkImage src="/images/contents/Posters/TAposter.png" alt="TA Poster"/>
+                <WorkImage src="/images/contents/Posters/alphonso.png" alt="Alphonso Poster"/>
+                <WorkImage src="/images/contents/Posters/makposter.png" alt="Vancouver Grizzlies Poster"/>
+                <WorkImage src="/images/contents/Posters/sketch.png" alt="Sketch"/>
 
                 
 
