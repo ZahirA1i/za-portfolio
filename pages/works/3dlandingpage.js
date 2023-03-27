@@ -34,7 +34,7 @@ const Work = () => {
                     <span>React, threeJS, Blender</span>
                     <ListItem>
                     <Meta>Role</Meta>
-                    <span>Developer + Designer</span>
+                    <span>Developer & Designer</span>
                     </ListItem>
 
                     <ListItem>
