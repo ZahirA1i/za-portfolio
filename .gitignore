@@ -4,3 +4,4 @@ dist
 .vercel
 .env
 .history
+.DS_Store

@@ -21,7 +21,7 @@ const Page = () => {
             <Heading as="h2" variant={"page-title"}>
                 Zahir Ali
             </Heading>
-        <p>Digital Creator (Designer/Deveolper)</p>
+        <p>Digital Creator (Designer/Developer)</p>
             </Box>
             <Box 
             flexShrink={0}
