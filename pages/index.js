@@ -46,7 +46,7 @@ const Page = () => {
         <Heading as="h3" variant="section-title">
             About
         </Heading>
-        <Paragraph>Hi, my name is Zahir and I'm 20 years old, born and raised in Vancouver, BC. I have a passion for design and a keen eye for detail, which allows me to create visually stunning and effective designs for a variety of mediums. My education in graphic design and my ongoing professional development have provided me with a strong foundation in design principles, typography, colour theory, and software tools. I am highly motivated, organized, and able to work collaboratively or independently with clients and team members to deliver projects on time and within budget</Paragraph>
+        <Paragraph>Hi, my name is Zahir and I'm 22 years old, born and raised in Vancouver, BC. I have a passion for design and a keen eye for detail, which allows me to create visually stunning and effective designs for a variety of mediums. My education in graphic design and my ongoing professional development have provided me with a strong foundation in design principles, typography, colour theory, and software tools. I am highly motivated, organized, and able to work collaboratively or independently with clients and team members to deliver projects on time and within budget</Paragraph>
         <Box align="center" my={4}>
             <NextLink href="/works">
                 <Button rightIcon={<ChevronRightIcon/>} colorScheme="purple">
